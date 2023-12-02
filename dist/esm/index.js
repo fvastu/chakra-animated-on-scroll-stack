@@ -1,4 +1,3 @@
-import RevealList from './components/RevealList';
-import RevealWrapper from './components/RevealWrapper';
-export { RevealList, RevealWrapper };
+import { AnimatedOnScrollStack } from './components/animated-stack';
+export { AnimatedOnScrollStack };
 //# sourceMappingURL=index.js.map

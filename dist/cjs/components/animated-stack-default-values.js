@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
-exports.reveal = void 0;
-exports.reveal = {
+exports.AnimatedStackDefaultValues = void 0;
+exports.AnimatedStackDefaultValues = {
     delay: 350,
     distance: '50px',
     duration: 650,
@@ -15,7 +15,6 @@ exports.reveal = {
     },
     scale: 1,
     cleanup: false,
-    // container: document.documentElement,
     desktop: true,
     mobile: true,
     reset: false,
@@ -28,4 +27,4 @@ exports.reveal = {
         left: 0
     }
 };
-//# sourceMappingURL=reveal.js.map
+//# sourceMappingURL=animated-stack-default-values.js.map

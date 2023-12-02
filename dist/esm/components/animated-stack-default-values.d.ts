@@ -1,4 +1,4 @@
-export declare const reveal: {
+export declare const AnimatedStackDefaultValues: {
     delay: number;
     distance: string;
     duration: number;

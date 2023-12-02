@@ -1,4 +1,3 @@
-import RevealList from './components/RevealList'
-import RevealWrapper from './components/RevealWrapper'
+import { AnimatedOnScrollStack } from './components/animated-stack'
 
-export { RevealList, RevealWrapper }
+export { AnimatedOnScrollStack }

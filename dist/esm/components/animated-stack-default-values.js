@@ -1,4 +1,4 @@
-export var reveal = {
+export var AnimatedStackDefaultValues = {
     delay: 350,
     distance: '50px',
     duration: 650,
@@ -12,7 +12,6 @@ export var reveal = {
     },
     scale: 1,
     cleanup: false,
-    // container: document.documentElement,
     desktop: true,
     mobile: true,
     reset: false,
@@ -25,4 +24,4 @@ export var reveal = {
         left: 0
     }
 };
-//# sourceMappingURL=reveal.js.map
+//# sourceMappingURL=animated-stack-default-values.js.map

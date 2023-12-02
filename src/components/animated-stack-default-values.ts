@@ -1,4 +1,4 @@
-export const reveal = {
+export const AnimatedStackDefaultValues = {
   delay: 350,
   distance: '50px',
   duration: 650,
@@ -12,7 +12,6 @@ export const reveal = {
   },
   scale: 1,
   cleanup: false,
-  // container: document.documentElement,
   desktop: true,
   mobile: true,
   reset: false,
@@ -24,8 +23,4 @@ export const reveal = {
     bottom: 0,
     left: 0,
   },
-  // afterReset: function (el: any) {},
-  // afterReveal: function (el: any) {},
-  // beforeReset: function (el: any) {},
-  // beforeReveal: function (el: any) {},
 }
