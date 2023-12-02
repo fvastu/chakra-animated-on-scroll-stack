@@ -5,7 +5,7 @@
 <p align="center">The easiest way to add scroll animations to your ChakraUI elements</p>
 
 <p align="center">
-  <img src="https://github.com/fvastu/chakra-animated-on-scroll-stack/assets/43243596/88299fa8-25b2-4eb6-ae41-e6a4d30f46fe" alt="Your Image Alt Text">
+    <img width="100%" src="https://github.com/fvastu/chakra-animated-on-scroll-stack/blob/main/scroll-demo.gif" alt="Demo Scroll Animation">
 </p>
 
 # Introduction
