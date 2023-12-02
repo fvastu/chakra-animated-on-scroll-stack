@@ -1,7 +1,7 @@
 {
   "name": "@fvastu/animated-on-scroll-stack",
-  "version": "1.0.0",
-  "description": "The easiest way to animated on scroll your chakrai/react project",
+  "version": "1.0.1",
+  "description": "The easiest way to animated on scroll your chakraui/react project",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
