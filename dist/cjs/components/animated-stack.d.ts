@@ -1,5 +1,6 @@
 import { StackProps } from '@chakra-ui/react';
 import { AnimatedOnScrollStackType } from './animated-stack-type';
+export declare type AnimatedOnScrollStackProps = StackProps & AnimatedOnScrollStackType;
 /**
  * AnimatedOnScrollStack is a flexible layout component that enables you to stack elements
  * horizontally or vertically, with the option to add space and dividers between them.
@@ -40,4 +41,4 @@ import { AnimatedOnScrollStackType } from './animated-stack-type';
  *
  * @returns {ReactElement} - The AnimatedOnScrollStack component.
  */
-export declare const AnimatedOnScrollStack: import("@chakra-ui/system/dist/system.types").ComponentWithAs<"div", StackProps & AnimatedOnScrollStackType>;
+export declare const AnimatedOnScrollStack: import("@chakra-ui/system/dist/system.types").ComponentWithAs<"div", AnimatedOnScrollStackProps>;
