@@ -1,3 +1,3 @@
-import { AnimatedOnScrollStack } from './components/animated-stack'
+import { AnimatedOnScrollStack, AnimatedOnScrollStackProps } from './components/animated-stack'
 
-export { AnimatedOnScrollStack }
+export { AnimatedOnScrollStack, AnimatedOnScrollStackProps }

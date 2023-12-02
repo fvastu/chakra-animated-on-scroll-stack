@@ -9,6 +9,8 @@ import { AnimatedStackDefaultValues } from './animated-stack-default-values'
 import { AnimatedOnScrollStackType } from './animated-stack-type'
 import { getDividerStyles } from './stack-utils'
 
+export type AnimatedOnScrollStackProps = StackProps & AnimatedOnScrollStackType
+
 /**
  * AnimatedOnScrollStack is a flexible layout component that enables you to stack elements
  * horizontally or vertically, with the option to add space and dividers between them.
@@ -49,7 +51,7 @@ import { getDividerStyles } from './stack-utils'
  *
  * @returns {ReactElement} - The AnimatedOnScrollStack component.
  */
-export const AnimatedOnScrollStack = forwardRef<StackProps & AnimatedOnScrollStackType, 'div'>((props, ref) => {
+export const AnimatedOnScrollStack = forwardRef<AnimatedOnScrollStackProps, 'div'>((props, ref) => {
   const {
     isInline,
     direction: directionProp,
