@@ -40,10 +40,10 @@ import { AnimatedOnScrollStack } from "@fvastu/animated-on-scroll-stack";
 ```
 ```html
 <AnimatedOnScrollStack interval={60} delay={500}  className='flex flex-wrap items-center justify-center'>
-  <Card className='bg-blue-400 h-12 w-12 xl:h-16 xl:w-16 m-2'></div>
-  <Card className='bg-blue-400 h-12 w-12 xl:h-16 xl:w-16 m-2'></div>
-  <Card className='bg-blue-400 h-12 w-12 xl:h-16 xl:w-16 m-2'></div>
-  <Card className='bg-blue-400 h-12 w-12 xl:h-16 xl:w-16 m-2'></div>
+  <Card className='bg-blue-400 h-12 w-12 xl:h-16 xl:w-16 m-2'></Card>
+  <Card className='bg-blue-400 h-12 w-12 xl:h-16 xl:w-16 m-2'></Card>
+  <Card className='bg-blue-400 h-12 w-12 xl:h-16 xl:w-16 m-2'></Card>
+  <Card className='bg-blue-400 h-12 w-12 xl:h-16 xl:w-16 m-2'></Card>
 </AnimatedOnScrollStack>
 ```
 
