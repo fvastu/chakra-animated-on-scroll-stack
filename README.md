@@ -57,7 +57,7 @@ import { AnimatedOnScrollStack } from "@fvastu/animated-on-scroll-stack";
 | `duration`                     | number                  | `duration` controls how long animations take to complete.                                                               |
 | `easing`                          | string | `easing` controls how animations transition between their start and end values.                                                                                                                    |
 | `interval`                         | number | `interval` is the time between each reveal.                                                                                                                  |
-| `opacity`                      | `number | null`                  | `opacity` specifies the opacity they have prior to being revealed.                                                                                                       |
+| `opacity`                      |number                 | `opacity` specifies the opacity they have prior to being revealed.                                                                                                       |
 | `origin`                      | string                  | `origin` specifies what direction elements come from when revealed.                                                                                                                                                        |
 | `rotate`                      | object                  | `rotate` specifies the rotation elements have prior to being revealed.                                                                                                                                                        |
 | `scale`                      | number                  | `scale` specifies the size of elements have prior to being revealed.                                                                                                                                                        |
@@ -70,7 +70,7 @@ import { AnimatedOnScrollStack } from "@fvastu/animated-on-scroll-stack";
 
 ### Defaults
 ```js
-const defaultRevealOptions  = {
+const animatedStackDefaultValues  = {
 delay:  350,
 distance:  '50px',
 duration:  650,
